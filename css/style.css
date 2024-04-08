@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -17,7 +17,7 @@ main {
     text-align: center;
 }
 
-.wrap {
+.wrapper {
     max-width: 940px;
     margin: 0 auto;
 }
@@ -26,7 +26,7 @@ img  {
     width:100%;
 }
 
-header .wrap {
+header .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +34,7 @@ header .wrap {
     margin:0 auto;
 }
 
-.emily {
+.name {
     margin-left: 50px;
 }
 
@@ -43,6 +43,7 @@ header ul {
     list-style: none;
 }
 
+header ul li a:link,
 header ul li a:visited {
     display: inline-block;
     padding: 0.5em 0.5em;
@@ -86,13 +87,13 @@ header ul li:nth-child(3) {
     text-align: center;
 }
 
-#about-me .wrap {
+#about-me .wrapper {
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
 }
 
-#about-me .wrap .wrap-text {
+#about-me .wrapper .wrapper-text {
     text-align: left;
 }
 
@@ -106,7 +107,7 @@ header ul li:nth-child(3) {
     padding-bottom: 40px;
 }
 
-#services .wrap {
+#services .wrapper {
     padding-top: 2em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -114,7 +115,7 @@ header ul li:nth-child(3) {
     gap: 30px;
 }
 
-#services .wrap article {
+#services .wrapper article {
     display: flex;
     flex-direction: column;
     padding: 0em 2em 0em 2em;
@@ -127,7 +128,7 @@ header ul li:nth-child(3) {
     padding:0;
 }
 
-#services .wrap h3 {
+#services .wrapper h3 {
     margin-bottom: 0;
     padding:0;
 }
@@ -136,8 +137,8 @@ a.btn {
     align-self: flex-start;
 }
 
-#services .wrap a:link,
-#services .wrap a:visited {
+#services .wrapper a:link,
+#services .wrapper a:visited {
     padding: 0.5em 0.5em;
     background-color: #000;
     color: #fff;
@@ -146,8 +147,8 @@ a.btn {
     border-color: #000;
 }
 
-#services .wrap a:hover,
-#services .wrap a:focus {
+#services .wrapper a:hover,
+#services .wrapper a:focus {
     background-color: #fff;
     color: #000;
     text-decoration: none;
